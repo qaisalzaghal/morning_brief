@@ -1,0 +1,8 @@
+msal
+requests
+pydantic
+pydantic_ai
+gtts
+subprocess
+ffmpeg
+ipykernal

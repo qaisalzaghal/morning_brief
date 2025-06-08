@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  morning-brief:
+    build: .
+    container_name: morning_brief_agent
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python main.py
