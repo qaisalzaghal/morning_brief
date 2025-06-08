@@ -18,7 +18,7 @@ A voice-based assistant that fetches your unread Outlook emails and calendar eve
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/morning-brief.git
+git clone https://github.com/qaisalzaghal/morning_brief.git
 cd morning-brief
 
 
