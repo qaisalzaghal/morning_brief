@@ -2,8 +2,8 @@ from msal import PublicClientApplication
 from datetime import datetime, timedelta
 import requests
 
-CLIENT_ID_m = '57c05860-dceb-4348-a353-ffee143c23b6'
-TENANT_ID_m = '2dded424-4409-4eea-abae-c0f93b9ccbb6'
+CLIENT_ID_m = '57c05860-dceb-4348-e353-ffee143c23b6'
+TENANT_ID_m = '2dded424-4409-4eea-abee-c0f93b9ccbb6'
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID_m}"
 SCOPES = ["Mail.Read"]
 
@@ -42,9 +42,9 @@ def get_unread_messages():
 
 
 # Configuration
-CLIENT_ID = 'cbe54967-5ec3-443b-9cbe-46a2e9295e68'
-CLIENT_SECRET = 'HbD8Q~8FcCGY8Zr2_ZPf~BoWrl6RvPT5fPSEmbHW'
-TENANT_ID = '2dded424-4409-4eea-abae-c0f93b9ccbb6'
+CLIENT_ID = 'cbe54967-5ec3-443t-9cbe-46a2e9295e68'
+CLIENT_SECRET = 'HbD8Q~8FcCGY8Zr2_ZPf~BeWrl6RvPT5fPSEmbHW'
+TENANT_ID = '2dded424-4409-4eea-abae-e0f93b9ccbb6'
 USER_ID = 'me@domain.com'  # or 'me' for current user
 
 # Get access token
@@ -111,9 +111,5 @@ if __name__ == '__main__':
 
 """
 
-Application (client) ID : cbe54967-5ec3-443b-9cbe-46a2e9295e68
 
-Object ID : 5a012f28-94f0-45da-b55e-4bb3e335d1a5
-
-Directory (tenant) ID : 2dded424-4409-4eea-abae-c0f93b9ccbb6
 """
